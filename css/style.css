@@ -273,7 +273,9 @@ section.contact {
     text-align: center;
 }
 
-
+form {
+    text-align: center;
+}
 
 #contact form {
     width: 100%;
@@ -301,13 +303,19 @@ textarea {
     margin-top: 7px;
 }
 
+.contact_type dt {
+    color: #155c2a;
+}
+
+
 /* 先頭以外のチェックボックスのマージンの付け方 */
 .contact_type label:not(:first-child){
     margin-left: 20px;
 }
 
 input[type="submit"] {
-    margin-bottom: 30px;
+   
+    margin: 0 auto 30px auto;
 }
 
 textarea {
